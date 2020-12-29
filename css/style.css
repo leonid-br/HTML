@@ -12,7 +12,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 600;
-  margin: 0;
+  /* margin: 0; */
 }
 
 a {
@@ -24,6 +24,7 @@ p {
   font-size: 14px;
   line-height: 1.86;
   letter-spacing: 0.02em;
+  font-weight: normal;
 
   color: var(--second-color);
 }
@@ -107,7 +108,7 @@ h2 {
   line-height: 1.66;
   letter-spacing: 0.02em;
 
-  color: var(--fifth-color);
+  /*  color: var(--fifth-color); */
 }
 
 .discription-light {
@@ -126,21 +127,20 @@ h2 {
 
 .header .container {
   display: flex;
-
-  align-items: center;
-}
-
-.header .menu {
-  display: flex;
-}
-
-.header ul {
-  display: flex;
   align-items: center;
 }
 
 .header .logo {
   margin-right: 70px;
+}
+
+.header .menu {
+  display: flex;
+  align-items: center;
+}
+
+.header .menu ul {
+  display: flex;
 }
 
 .header .address {
@@ -153,7 +153,6 @@ h2 {
 }
 .header a,
 .header a:visited {
-  font-weight: 600;
   font-size: 12px;
   line-height: 1.3;
   letter-spacing: 0.1em;
@@ -170,9 +169,7 @@ h2 {
 /* ========== /HEADER ========== */
 
 /* ========== TOP ========== */
-.top.section {
-  padding-top: 0;
-}
+
 .top .container {
   display: flex;
 }
@@ -234,7 +231,7 @@ h2 {
 
 .about-right {
   margin-left: 64px;
-  width: 500px;
+  width: 544px;
 }
 
 .about .discription {
@@ -245,12 +242,12 @@ h2 {
   margin-top: 40px;
 }
 
-/* ========== О НАС ========== */
+/* ========== /О НАС ========== */
 
 /* ========== УСЛУГИ И ЦЕНЫ ========== */
 .services {
-  background-color: #555555;
 }
+
 .services h2 {
   /* color: var(--therd-color); */
 }
@@ -270,10 +267,6 @@ h2 {
   justify-content: space-between;
 }
 
-.services .modal-opeb-btn {
-  display: flex;
-  margin: 0 auto;
-}
 .services ul span {
   font-weight: normal;
   font-size: 18px;
@@ -281,6 +274,11 @@ h2 {
   letter-spacing: 0.02em;
 
   color: var(--fifth-color);
+}
+
+.services .modal-opeb-btn {
+  display: block;
+  margin: 0 auto;
 }
 
 /* ========== /УСЛУГИ И ЦЕНЫ ========== */
@@ -303,9 +301,9 @@ h2 {
 
 .achievements-left ul li {
   width: 170px;
-  min-height: 72px;
-  margin-bottom: 30px;
+  min-height: 133px;
   padding: 18px;
+  margin-bottom: 30px;
 }
 
 .achievements-left ul li:nth-child(even) {
@@ -340,9 +338,6 @@ h2 {
 }
 
 .achievements-left sup {
-  font-size: 16px;
-  line-height: 1.37;
-
   color: var(--fourth-color);
 }
 
@@ -389,13 +384,14 @@ h2 {
 /* ========== ГАЛЕРЕЯ ========== */
 .gallary {
 }
-.gallary ul {
-  display: flex;
-  justify-content: space-between;
-}
 
 .gallary .subtitle {
   margin-bottom: 44px;
+}
+
+.gallary ul {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* ========== /ГАЛЕРЕЯ ========== */
@@ -411,8 +407,12 @@ h2 {
 }
 
 .contacts-right {
-  width: 30%;
+  width: 50%;
   padding: 130px 100px;
+}
+
+.contacts .subtitle {
+  margin-top: 70px;
 }
 
 .contacts h2 {
@@ -422,10 +422,6 @@ h2 {
 
 .contacts .city {
   width: 190px;
-}
-
-.contacts .subtitle {
-  margin-top: 70px;
 }
 
 .contacts ul li {
@@ -448,11 +444,11 @@ h2 {
 
   color: var(--fifth-color);
 }
-.contacts .subtitle-light {
+/* .contacts .subtitle-light {
   font-size: 11px;
   line-height: 1.36;
   letter-spacing: 0.1em;
-  text-transform: uppercase;
+  text-transform: uppercase; */
 
   /*   color: var(--therd-color); */
 }
@@ -462,16 +458,9 @@ h2 {
   padding: 56px 0;
 }
 
-.footer ul {
-  display: flex;
-}
-
-.footer ul li:not(:last-child) {
-  margin-right: 40px;
-}
-
 .footer .container {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -481,6 +470,15 @@ h2 {
   letter-spacing: 0.2em;
 
   color: var(--fifth-color);
+}
+
+.footer ul {
+  display: flex;
+  align-items: center;
+}
+
+.footer ul li:not(:last-child) {
+  margin-right: 40px;
 }
 
 .footer a:hover,
