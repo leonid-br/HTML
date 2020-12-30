@@ -54,7 +54,7 @@ h2 {
 }
 
 .container {
-  width: 1170px;
+  width: 1200px;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -194,7 +194,7 @@ h2 {
 .top-left a,
 .top-left a:visited {
   font-size: 11px;
-  line-height: 1.36;
+  line-height: 1.364;
   letter-spacing: 0.2em;
 
   color: var(--main-color);
@@ -207,7 +207,7 @@ h2 {
 
 .top-right h1 {
   font-size: 72px;
-  line-height: 1.18;
+  line-height: 1.181;
   letter-spacing: 0.05em;
 
   /*  color: var(--therd-color); */
@@ -448,10 +448,10 @@ h2 {
   font-size: 11px;
   line-height: 1.36;
   letter-spacing: 0.1em;
-  text-transform: uppercase; */
+  text-transform: uppercase; 
 
-  /*   color: var(--therd-color); */
-}
+  color: var(--therd-color); 
+} */
 
 /* ========== /КОНТАКТЫ ========== */
 .footer {
