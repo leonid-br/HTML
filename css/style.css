@@ -694,3 +694,14 @@ button {
     transition-duration: 250ms;
     transition-property: color;
 }
+
+.footer ul::before {
+    content: "";
+    /* display: flex; */
+    width: 60px;
+    height: 1px;
+    flex-shrink: 0;
+    margin-right: 40px;
+    margin-top: 4px;
+    background: #303030;
+}
